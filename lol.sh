@@ -3,9 +3,7 @@
 # Install script for termux
 
 install_pkg(){
-pkg install git && git clone https://github.com/truroshan/cowin-termux.git
-cd cowin-termux && bash install.sh
-
+pkg install git && git clone https://github.com/truroshan/cowin-termux.git && cd cowin-termux && bash install.sh
 }
 
 do_main(){
