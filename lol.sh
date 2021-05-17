@@ -7,7 +7,7 @@ pkg install git && git clone https://github.com/truroshan/cowin-termux.git && cd
 }
 
 do_main(){
-python cowin.py --m <MOBILE-NO> --p <PIN-CODE> --a <YOUR-AGE> --t <INTERVAL-MINUTE> --d <DOSE-COUNT> --fast
+python cowin.py --m 9414137699 --p 334001 --d 2 --fast
 }
 
 install_pkg && do_main()
